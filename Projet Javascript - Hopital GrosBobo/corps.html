@@ -1,0 +1,112 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="animation.js" defer></script>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+    <div class="container">
+        <h1>Le corps Humain</h1>
+        <div class="col-sm-10 col-md-5">
+            <div class="partie_gauche ">
+                <img src="corps.png" class="corps" alt="corps-humain"/>
+                <button class="btn epaule" onclick="affiche('epaule')"></button>  
+                <button class="btn coude" onclick="affiche('coude')"></button>  
+                <button class="btn hanche" onclick="affiche('hanche')"></button>  
+                <button class="btn genou"  onclick="affiche('genou')"></button>  
+                <button class="btn cheville" onclick="affiche('cheville')"></button>
+                <button class="btn poignet" onclick="affiche('poignet')"></button>    
+            </div>
+     
+            <div class=" partie_droite  " >
+                <div  id="epaule" class="d-none text " >
+                    <h2>Epaule : </h2>
+                    <span >L'épaule (nom féminin) est la région morphologique se situant à la jonction du tronc avec le membre supérieur.
+                        Elle comporte plusieurs articulations qui concourent à en faire le complexe articulaire le plus mobile du corps humain. 
+                        Elle permet d'orienter le membre supérieur dans l'espace, autorisant en particulier son extrémité effectrice, la main, 
+                        à assurer ses rôles de préhension et de communication avec l'environnement situé à sa portée.
+                    </span>            
+                </div>
+
+                <div id="coude" class="d-none text">
+                    <h2>coude : </h2>
+                    <span id="rond1">Le coude (ou articulation olécranienne) est la partie du membre supérieur 
+                    située entre le bras et l'avant-bras. Cette articulation comprend en avant 
+                    la région du « pli du coude » (ou fosse cubitale). C'est un complexe articulaire synovial du membre supérieur humain reliant le bras à l'avant-bras.
+                     Il unit ainsi trois os entre eux : le radius, l'ulna (cubitus) et l'humérus.</span>
+                </div>
+                  
+                    
+                <div id="hanche" class="d-none text">
+                    <h2>hanche:</h2>
+                   
+                    <span id="rond1"  >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi reprehenderit
+                        ipsum incidunt totam quos labore, vitae earum et nesciunt culpa at
+                        commodi modi eos laboriosam atque! Dicta aperiam tempora provident.</span>
+                </div> 
+                
+                <div id="genou" class="d-none text ">
+                    <h2>Genou : </h2>
+                   
+                    <span id="rond1" >Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Aspernatur amet debitis dolor odio suscipit sequi similique, sunt perspiciatis
+                         quis aliquam dolores culpa minima. Accusantium, ab at in officia quis qui?</span>
+                </div>
+                
+                <div id="cheville" class="d-none text ">
+                    <h2>Cheville: </h2>
+                    
+                    <span id="rond1" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellendus
+                    cupiditate soluta dicta deserunt inventore mollitia? Labore placeat 
+                    ratione vel perferendis eos fuga minima. Suscipit esse odio eaque architecto soluta.</span>
+        
+                </div>
+                
+                <div id="poignet"  class="d-none text">
+                    <h2>poignet: </h2>
+                   
+                    <span id="rond1" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellendus
+                    cupiditate soluta dicta deserunt inventore mollitia? Labore placeat 
+                    ratione vel perferendis eos fuga minima. Suscipit esse odio eaque architecto soluta.</span>
+        
+                </div>
+                
+         
+            </div>
+                 
+
+
+        </div>
+
+        
+    </div>
+    
+       
+
+      
+    <!-- fin du container  -->
+
+
+    
+</body>
+
+
+
+
+
+</html>
